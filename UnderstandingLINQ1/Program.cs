@@ -37,7 +37,9 @@ namespace UnderstandingLINQ
             var firstBMW = myCars.OrderByDescending(p=>p.Year).First(p => p.Make=="BMW");
             Console.WriteLine(firstBMW.VIN);
             */
-            Console.WriteLine(myCars.TrueForAll(p => p.Year > 1990));
+            // Console.WriteLine(myCars.TrueForAll(p => p.Year > 1990));
+
+            myCars.ForEach(p => Console.WriteLine("{0} {1:C}", p.VIN, p.StickerPrice));
 /*
             
             foreach (var car in orderedCars)
