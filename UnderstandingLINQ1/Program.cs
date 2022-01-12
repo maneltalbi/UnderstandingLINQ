@@ -17,16 +17,25 @@ namespace UnderstandingLINQ
             new Car() { VIN = "E5", Make = "BMW", Model = "55i", StickerPrice = 57000, Year = 2010 }
 
             };
-            //Link query
+            //LINQ query
+            /*
             var bmws = from car in myCars
                        where car.Make == "BMW"
                        && car.Year == 2010
                        select car;
+            */
+            /*
+            var orderedCars = from car in myCars
+                              orderby car.Year descending
+                              select car;
+            */
+            //LINQ method
+            // var bmws = myCars.Where(p => p.Make == "BMW" && p.Year == 2010);
 
-            //Link method
-            foreach (var car in bmws)
+            var orderedCars = myCars.OrderByDescending(p => p.Year);
+            foreach (var car in orderedCars)
             {
-                Console.WriteLine("{0} {1}", car.Model, car.VIN);
+                Console.WriteLine("{0} {1} {2}", car.Year,car.Model, car.VIN);
             }
             Console.ReadLine();
         }
