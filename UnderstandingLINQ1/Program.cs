@@ -38,8 +38,10 @@ namespace UnderstandingLINQ
             Console.WriteLine(firstBMW.VIN);
             */
             // Console.WriteLine(myCars.TrueForAll(p => p.Year > 1990));
+            // myCars.ForEach(p => p.StickerPrice -= 3000);
+            //myCars.ForEach(p => Console.WriteLine("{0} {1:C}", p.VIN, p.StickerPrice));
 
-            myCars.ForEach(p => Console.WriteLine("{0} {1:C}", p.VIN, p.StickerPrice));
+            Console.WriteLine(myCars.Exists(p => p.Model == "745li"));
 /*
             
             foreach (var car in orderedCars)
