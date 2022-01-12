@@ -32,11 +32,19 @@ namespace UnderstandingLINQ
             //LINQ method
             // var bmws = myCars.Where(p => p.Make == "BMW" && p.Year == 2010);
 
-            var orderedCars = myCars.OrderByDescending(p => p.Year);
+            //var orderedCars = myCars.OrderByDescending(p => p.Year);
+            /*
+            var firstBMW = myCars.OrderByDescending(p=>p.Year).First(p => p.Make=="BMW");
+            Console.WriteLine(firstBMW.VIN);
+            */
+            Console.WriteLine(myCars.TrueForAll(p => p.Year > 1990));
+/*
+            
             foreach (var car in orderedCars)
             {
                 Console.WriteLine("{0} {1} {2}", car.Year,car.Model, car.VIN);
             }
+*/
             Console.ReadLine();
         }
     }
