@@ -1,0 +1,15 @@
+C:\Users\DELL\source\repos\UnderstandingLINQ1\UnderstandingLINQ1\bin\Debug\net6.0\UnderstandingLINQ1.exe
+C:\Users\DELL\source\repos\UnderstandingLINQ1\UnderstandingLINQ1\bin\Debug\net6.0\UnderstandingLINQ1.deps.json
+C:\Users\DELL\source\repos\UnderstandingLINQ1\UnderstandingLINQ1\bin\Debug\net6.0\UnderstandingLINQ1.runtimeconfig.json
+C:\Users\DELL\source\repos\UnderstandingLINQ1\UnderstandingLINQ1\bin\Debug\net6.0\UnderstandingLINQ1.dll
+C:\Users\DELL\source\repos\UnderstandingLINQ1\UnderstandingLINQ1\bin\Debug\net6.0\ref\UnderstandingLINQ1.dll
+C:\Users\DELL\source\repos\UnderstandingLINQ1\UnderstandingLINQ1\bin\Debug\net6.0\UnderstandingLINQ1.pdb
+C:\Users\DELL\source\repos\UnderstandingLINQ1\UnderstandingLINQ1\obj\Debug\net6.0\UnderstandingLINQ1.csproj.AssemblyReference.cache
+C:\Users\DELL\source\repos\UnderstandingLINQ1\UnderstandingLINQ1\obj\Debug\net6.0\UnderstandingLINQ1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\source\repos\UnderstandingLINQ1\UnderstandingLINQ1\obj\Debug\net6.0\UnderstandingLINQ1.AssemblyInfoInputs.cache
+C:\Users\DELL\source\repos\UnderstandingLINQ1\UnderstandingLINQ1\obj\Debug\net6.0\UnderstandingLINQ1.AssemblyInfo.cs
+C:\Users\DELL\source\repos\UnderstandingLINQ1\UnderstandingLINQ1\obj\Debug\net6.0\UnderstandingLINQ1.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\repos\UnderstandingLINQ1\UnderstandingLINQ1\obj\Debug\net6.0\UnderstandingLINQ1.dll
+C:\Users\DELL\source\repos\UnderstandingLINQ1\UnderstandingLINQ1\obj\Debug\net6.0\ref\UnderstandingLINQ1.dll
+C:\Users\DELL\source\repos\UnderstandingLINQ1\UnderstandingLINQ1\obj\Debug\net6.0\UnderstandingLINQ1.pdb
+C:\Users\DELL\source\repos\UnderstandingLINQ1\UnderstandingLINQ1\obj\Debug\net6.0\UnderstandingLINQ1.genruntimeconfig.cache
