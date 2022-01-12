@@ -41,7 +41,9 @@ namespace UnderstandingLINQ
             // myCars.ForEach(p => p.StickerPrice -= 3000);
             //myCars.ForEach(p => Console.WriteLine("{0} {1:C}", p.VIN, p.StickerPrice));
 
-            Console.WriteLine(myCars.Exists(p => p.Model == "745li"));
+            //Console.WriteLine(myCars.Exists(p => p.Model == "745li"));
+
+            Console.WriteLine(myCars.Sum(p => p.StickerPrice));
 /*
             
             foreach (var car in orderedCars)
